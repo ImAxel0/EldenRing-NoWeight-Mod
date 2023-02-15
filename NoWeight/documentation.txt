@@ -1,0 +1,31 @@
+WEAPONS/////////////////////////////////////////////////
+
+0x74, MASKED, 0xf3, 0x0f, 0x58, 0x70, MASKED, 0xff, 0xc7, 0x83, 0xff, MASKED, 0x7c, MASKED, 0x41, 0x8b, 0xfe x?xxxx?xxxx?x?xxx
+
+ORIGINAL: 
+
+7FF7AC0E69AB - 74 05                 - je 7FF7AC0E69B2
+
+PATCHED: 
+
+7FF7AC0E69AB - EB 05                 - jmp 7FF7AC0E69B2
+
+///////////////////////////////////////////////////////
+
+
+
+
+ARMOR/////////////////////////////////////////////////
+
+0x74, MASKED, 0xf3, 0x0f, 0x58, 0x70, MASKED, 0xff, 0xc7, 0x83, 0xff, MASKED, 0x7c, MASKED, 0x41, 0x8b, 0xde x?xxxx?xxxx?x?xxx
+
+ORIGINAL: 
+
+7FF7AC0E6A0B - 74 05                 - je 7FF7AC0E6A12
+
+MODIFIED:
+
+7FF7AC0E6A0B - EB 05                 - jmp 7FF7AC0E6A12
+
+
+
